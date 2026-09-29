@@ -10,21 +10,11 @@
   }
 
   body {
-    @apply bg-white text-gray-900;
-    font-family: 'Onest', sans-serif;
+    font-family: 'Onest Variable', 'Onest', system-ui, sans-serif;
     font-weight: 400;
   }
 
   html {
-    font-family: 'Onest', sans-serif;
+    font-family: 'Onest Variable', 'Onest', system-ui, sans-serif;
   }
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
-
-html {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
