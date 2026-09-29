@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource-variable/onest";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-white text-gray-900;
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+  }
+
+  html {
+    font-family: 'Onest', sans-serif;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
